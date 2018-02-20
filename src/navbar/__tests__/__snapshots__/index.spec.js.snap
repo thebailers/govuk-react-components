@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Nav Bar Component With navitems should render a navitem inside a navbar 1`] = `
+<div
+  class="header-proposition"
+>
+  <div
+    class="content"
+  >
+    <nav
+      id="proposition-menu"
+    >
+      <a
+        href="/"
+        id="proposition-name"
+      />
+      <ul
+        id="proposition-links"
+      >
+        <li>
+          <a
+            class="active"
+            href="url-to-page-1"
+          >
+            Navigation item #1
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`The Nav Bar Component With navitems should render multiple navitems inside a navbar 1`] = `
+<div
+  class="header-proposition"
+>
+  <div
+    class="content"
+  >
+    <nav
+      id="proposition-menu"
+    >
+      <a
+        href="/"
+        id="proposition-name"
+      />
+      <ul
+        id="proposition-links"
+      >
+        <li>
+          <a
+            class="active"
+            href="url-to-page-1"
+          >
+            Navigation item #1
+          </a>
+        </li>
+        <li>
+          <a
+            class="active"
+            href="url-to-page-2"
+          >
+            Navigation item #2
+          </a>
+        </li>
+        <li>
+          <a
+            class="active"
+            href="url-to-page-3"
+          >
+            Navigation item #3
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`The Nav Bar Component should render correctly when not passed a propositionHeader link 1`] = `
+<div
+  class="header-proposition"
+>
+  <div
+    class="content"
+  >
+    <nav
+      id="proposition-menu"
+    >
+      <a
+        href="/"
+        id="proposition-name"
+      >
+        Lorem ipsum
+      </a>
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`The Nav Bar Component should render correctly when passed a link to the propositionHeader 1`] = `
+<div
+  class="header-proposition"
+>
+  <div
+    class="content"
+  >
+    <nav
+      id="proposition-menu"
+    >
+      <a
+        href="/"
+        id="proposition-name"
+      >
+        Lorem ipsum
+      </a>
+    </nav>
+  </div>
+</div>
+`;

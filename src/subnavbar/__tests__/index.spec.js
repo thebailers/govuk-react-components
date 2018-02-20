@@ -1,6 +1,7 @@
 import React from 'react'
 import {render} from 'enzyme'
-import {SubNavBar, NavItem} from 'govuk-react-components/subnavbar';
+import {SubNavBar} from 'govuk-react-components/subnavbar';
+import {NavItem} from 'govuk-react-components/navitem';
 
 describe('The SubNavBar Component', () => {
   it('should render children that are passed in', () => {

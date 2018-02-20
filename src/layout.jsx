@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import Header from './header/header-bar';
+
 class Layout extends React.Component {
 
   render() {
@@ -38,27 +40,7 @@ class Layout extends React.Component {
             </div>
           </div>
 
-          <header role="banner" id="global-header" className={this.props.propositionHeader ? 'with-proposition' : ''}>
-            <div className="header-wrapper">
-              <div className="header-global">
-                <div className="header-logo">
-                  <a href={ this.props.homepageUrl } title={ this.props.logoLinkTitle } id="logo" className="content">
-                    <img src={`${ this.props.assetPath }/images/gov.uk_logotype_crown_invert_trans.png?0.23.0`} width="36" height="32" alt="" /> { this.props.globalHeaderText }
-                  </a>
-                </div>
-              </div>
-              {
-                this.props.propositionHeader &&
-                <div className="header-proposition">
-                  <div className="content">
-                    <nav id="proposition-menu">
-                      <a href={this.props.propositionHeaderLink} id="proposition-name">{this.props.propositionHeader}</a>
-                    </nav>
-                  </div>
-                </div>
-              }
-            </div>
-          </header>
+          <Header propositionHeader={this.props.propositionHeader} />
 
           <div id="global-header-bar"></div>
 

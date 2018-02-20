@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import NavItemA from './navitem';
+import NavItemA from '../navitem';
 
 export const SubNavBar = (props) => (
   <div className={`navbar${props.className ? ' ' + props.className : ''}`}>

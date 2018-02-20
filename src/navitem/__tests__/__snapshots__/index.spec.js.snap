@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The NavItem Component should render an included classname 1`] = `
+<div
+  class="navbar"
+>
+  <ul
+    class="navbar__list-items"
+  >
+    <li>
+      <a
+        class=" test class-name"
+        href="#test"
+      >
+        Item A
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`The NavItem Component should render with an active class if the active flag is true 1`] = `
+<div
+  class="navbar"
+>
+  <ul
+    class="navbar__list-items"
+  >
+    <li>
+      <a
+        class="active test class-name"
+        href="#test"
+      >
+        Item A
+      </a>
+    </li>
+  </ul>
+</div>
+`;
